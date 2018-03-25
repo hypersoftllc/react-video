@@ -1,21 +1,27 @@
 {
-  "plugins": [
-    "transform-remove-debugger",
-  ],
-  "presets": [
-    "react",
-  ],
   "env": {
     "cjs": {
+      "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread",
+        "transform-remove-debugger",
+      ],
       "presets": [
         "env",
+        "react",
       ],
     },
     "es": {
+      "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread",
+        "transform-remove-debugger",
+      ],
       "presets": [
         ["env", {
           "modules": false,
         }],
+        "react",
       ]
     }
   }
