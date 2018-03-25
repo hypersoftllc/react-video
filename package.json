@@ -1,0 +1,27 @@
+{
+  "name": "@qc/react-video",
+  "version": "0.0.1-alpha",
+  "description": "A declarative HTML5 video React component.",
+  "keywords": [
+    "react",
+    "video"
+  ],
+  "author": "Danny Hurlburt",
+  "license": "ISC",
+  "browserslist": [
+    "> 0.5%",
+    "Last 2 major versions",
+    "Firefox ESR"
+  ],
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
