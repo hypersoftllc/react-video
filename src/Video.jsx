@@ -33,43 +33,43 @@ class Video extends React.Component {
   videoEl = null
 
   addTextTrack(...args) {
-    this.videoEl.addTextTrack(...args);
+    return this.videoEl.addTextTrack(...args)
   }
 
   canPlayType(...args) {
-    this.videoEl.canPlayType(...args);
+    return this.videoEl.canPlayType(...args)
   }
 
   captureStream(...args) {
-    this.videoEl.captureStream(...args);
+    return this.videoEl.captureStream(...args)
   }
 
   fastSeek(...args) {
-    this.videoEl.fastSeek(...args);
+    return this.videoEl.fastSeek(...args)
   }
 
   load(...args) {
-    this.videoEl.load(...args);
+    return this.videoEl.load(...args)
   }
 
   pause(...args) {
-    this.videoEl.pause(...args);
+    return this.videoEl.pause(...args)
   }
 
   play(...args) {
-    this.videoEl.play(...args);
+    return this.videoEl.play(...args)
   }
 
   seekToNextFrame(...args) {
-    this.videoEl.seekToNextFrame(...args);
+    return this.videoEl.seekToNextFrame(...args)
   }
 
   setMediaKeys(...args) {
-    this.videoEl.setMediaKeys(...args);
+    return this.videoEl.setMediaKeys(...args)
   }
 
   setSinkId(...args) {
-    this.videoEl.setSinkId(...args);
+    return this.videoEl.setSinkId(...args)
   }
 
   render() {
