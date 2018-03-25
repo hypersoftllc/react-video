@@ -8,6 +8,9 @@
 
 # production
 /build/
+/dist/
+/es/
+/lib/
 
 # misc
 .coveralls.yml
